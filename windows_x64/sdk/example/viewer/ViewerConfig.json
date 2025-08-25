@@ -1,0 +1,59 @@
+{
+    "Version": {
+        "major": "1",
+        "minor": "1",
+        "revision": "0"
+    },
+    "Camera": {
+        "mode": "0",
+        "Record": {
+            "target_path": "",
+            "packing": "60"
+        }
+    },
+    "PlayBack": {
+        "target_path": "",
+        "jump_time": "10"
+    },
+  "PostFilter": {
+    "Median": {
+      "enable": "true",
+      "ksize": "3"
+    },
+    "Bilateral": {
+      "enable": "true",
+      "ksize": "3",
+      "sigma_depth": "500.0",
+      "sigma_ir": "100.0",
+      "sigma_space": "1.0"
+    },
+    "FlyingPixel": {
+      "enable": "true",
+      "ksize": "3",
+      "log_eval": "true",
+      "threshold": "130",
+      "fast_proc": "true"
+    }
+  },
+    "PostProcess": {
+        "distortion": "true",
+        "PointCloud": {
+            "pcd_coord": "0",
+            "offset": [
+                "0",
+                "0",
+                "0"
+            ],
+            "rotation": [
+                "0",
+                "0",
+                "0"
+            ]
+        }
+    },
+
+    "ViewSettings": {
+        "Gain": "20",
+        "Gamma": "2"
+    }
+}
