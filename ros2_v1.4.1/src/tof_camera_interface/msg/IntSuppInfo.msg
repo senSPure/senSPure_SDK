@@ -1,0 +1,5 @@
+IntSuppModeType mode
+MinMaxValue8 prm_m
+MinMaxValue8 prm_a1
+MinMaxValue8 prm_a2
+MinMaxValue8 prm_a3

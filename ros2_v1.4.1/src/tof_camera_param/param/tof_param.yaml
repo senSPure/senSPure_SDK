@@ -1,0 +1,14 @@
+# Camera type .. 0:C11(USB), 1:PlayBack
+cam_type  : 0
+
+# Camera Device index(Use only Camera device)
+cam_index : 0
+
+# Motion Mode(Use only Camera device)
+cam_mode  : 0
+
+# PlayBack file directory(Use only PlayBack)
+play_dir  : "."
+
+# Start capture after wake up TOF Control Node
+start     : true

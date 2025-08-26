@@ -1,0 +1,12 @@
+uint8 CMD_REC_START = 0
+uint8 CMD_REC_STOP = 1
+uint8 cmd
+string directory
+uint32 save_frames
+uint16 packing_frames
+bool is_crct_dist
+bool is_filt_med
+bool is_filt_bil
+bool is_filt_fly_p
+---
+bool result

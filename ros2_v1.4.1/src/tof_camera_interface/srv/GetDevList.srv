@@ -1,0 +1,4 @@
+CameraType type
+---
+bool result
+ConnDevice[] dev_list

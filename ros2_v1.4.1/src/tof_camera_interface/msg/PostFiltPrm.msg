@@ -1,0 +1,9 @@
+uint8 median_ksize
+uint8 bil_ksize
+float64 bil_sigma_depth
+float64 bil_sigma_ir
+float64 bil_sigma_space
+uint8 flyp_ksize
+bool flyp_log
+uint16 flyp_thr
+bool flyp_fast_proc

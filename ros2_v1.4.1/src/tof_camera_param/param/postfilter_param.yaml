@@ -1,0 +1,35 @@
+# Median filter enable
+median          : true
+
+# Bilateral filter enable
+bilateral          : true
+
+# Flying Pixel filter enable
+flyp            : true
+
+# Kernel size of Median filter (3 or 5)
+median_ksize    : 3
+
+# Kernel size of Bilateral filter (3 or 5)
+bilateral_ksize    : 3
+
+# Sigma Depth of Bilateral filter (0.001 .. 1000.000)
+bilateral_sigma_depth    : 500.0
+
+# Sigma IR of Bilateral filter (0.001 .. 250.000)
+bilateral_sigma_ir    : 100.0
+
+# Sigma Space of Bilateral filter (0.001 .. 10.000)
+bilateral_sigma_space    : 1.0
+
+# Kernel size of Flying Pixel filter (3 or 5)
+flyp_ksize      : 3
+
+# Logarithmic evaluation enable of Flying Pixel filter
+flyp_log        : true
+
+# Threshold of flying pixel filter (0 .. 8000)
+flyp_thr        : 130
+
+#Fast processing enable of flying pixel filter 
+flyp_fast_proc        : true

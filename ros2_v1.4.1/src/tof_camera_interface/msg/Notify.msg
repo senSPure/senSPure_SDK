@@ -1,0 +1,7 @@
+uint8 ERR_PARAM = 1
+uint8 ERR_TIMEOUT = 2
+uint8 ERR_SYSTEM = 3
+uint8 PLAY_REACHED_EOF = 10
+uint8 REC_REACHED_EOF = 11
+uint8 REC_ERR_SYSTEM = 12
+uint8 notify

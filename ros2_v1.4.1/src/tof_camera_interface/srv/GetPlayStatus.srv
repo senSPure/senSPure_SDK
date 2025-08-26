@@ -1,0 +1,10 @@
+uint8 reserved
+---
+bool result
+uint8 STOPPED = 0
+uint8 PLAYING = 1
+uint8 PAUSE = 2
+uint8 FAST = 3
+uint8 SLOW = 4
+uint8 state
+uint16 playing_fps

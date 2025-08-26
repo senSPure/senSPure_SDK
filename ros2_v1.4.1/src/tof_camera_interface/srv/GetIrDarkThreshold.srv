@@ -1,0 +1,4 @@
+uint8 reserved
+---
+bool result
+MinMaxValue16 ir_dark_th
