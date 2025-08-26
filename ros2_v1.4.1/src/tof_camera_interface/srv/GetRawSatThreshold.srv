@@ -1,0 +1,4 @@
+uint8 reserved
+---
+bool result
+MinMaxValue16 raw_sat_th

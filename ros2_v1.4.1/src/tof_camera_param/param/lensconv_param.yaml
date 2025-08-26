@@ -1,0 +1,13 @@
+# Use Distortion correction (Depth, IR)
+distortion      : true
+
+# Origin of Point Cloud .. true : World origin, false : Camera origin
+pcd_origin      : false
+
+# Camera position for Point cloud conversion(World origin)
+pcd_offset_x    : 0
+pcd_offset_y    : 0
+pcd_offset_z    : 0
+pcd_rotation_x  : 0.0
+pcd_rotation_y  : 0.0
+pcd_rotation_z  : 0.0

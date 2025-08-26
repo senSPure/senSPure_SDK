@@ -1,0 +1,6 @@
+uint8 LENS_CONV_DIST = 0
+uint8 LENS_PCD_KIND = 1
+uint8 conv_type
+bool enable
+---
+bool result

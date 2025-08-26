@@ -1,0 +1,5 @@
+uint8 LENS_CONV_DIST = 0
+uint8 conv_type
+---
+bool result
+bool possible

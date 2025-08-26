@@ -1,0 +1,4 @@
+uint8 reserved
+---
+bool result
+ModeInfo[] mode_list

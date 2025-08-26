@@ -1,0 +1,9 @@
+uint16 sens_w
+uint16 sens_h
+uint32 focal_len
+uint8 thin_w
+uint8 thin_h
+Point2d crop
+bool cam_dist
+uint64[9] dist
+uint16 lens_calib

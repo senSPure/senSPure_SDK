@@ -1,0 +1,10 @@
+uint8 id
+string description
+ImgOutKind[] img_out
+Range dist_range
+uint16 fps
+uint8 thin_w
+uint8 thin_h
+Point2d crop
+bool light_times
+uint16 range_calib

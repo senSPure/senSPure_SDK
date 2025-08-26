@@ -1,0 +1,4 @@
+CameraType type
+uint16 dev_id
+---
+bool result
