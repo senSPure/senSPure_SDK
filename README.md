@@ -1,43 +1,40 @@
-# senSPure SDK
+# *senSPure*&trade; SDK
 
-```
-英語表記に直す
-```
+The *senSPure*&trade; SDK (Software Development Kit)  is supported multiple operating systems, which facilitates application development.
 
-弊社の3D ToFカメラに対応したドキュメントやプログラムをパッケージ化したもので、ソフトウェア開発や既存アプリケーション環境への組み込み開発を支援します。
+# Supported Platform
+* Windows: Windows 10/11
+* Linux: Ubuntu 20.04/22.04
+* NVIDIA Jetson: Jetpack 5.0.1/6.0
 
-### クロスプラットフォームでの開発に対応
-マルチOS (Windows / Linux Ubuntu 20.04), ROS 2 Humble, Jetsonに対応したことで、アプリケーションに合わせた開発が可能です。
+# Supported Devices
+* *senSPure*&trade; C11U
 
-### Pipelineフレームワークに対応
-ニーズに応じた機能の追加・変更が容易であり、ユーザーの効率的な開発を実現します。
+# Release Notes
+* **Version 3.0.5 [July 4, 2025]**
+   * Fixed a bug related to point cloud conversion processing.
 
-### 様々なAPIを提供
-カメラ制御や点群座標変換、各種フィルタ処理などのAPIを提供します。カメラ制御や3Dデータを手軽に扱うことができ、アプリケーション開発の工数を削減できます。
+# Folder description
+* **windows_x64**
+
+    Windows x64 SDK package that is developed for personal computer platform(x86_64), use standard compiler Visual Studio 2019.
+
+* **ubuntu_x64**
+
+     Ubuntu x64 SDK package that is developed for personal computer platform(x86_64).
+
+* **jetson_arm64**
+
+    Jetson AGX Orin arm64 SDK package that is developed for SoC platform(arm64).
+
+* **ros2_v1.4.1**
+
+    ROS2 Humble Hawksbill package that is developed for personal computer platform(Windows, Ubuntu, Jetson)
 
 
----
+# Resources
+[Official Website](https://www.toppan.com/en/electronics/device/tof/)
 
-## 更新履歴
+[Online Store(Chip One Stop)](https://www.chip1stop.com/products/TOPPAN/TPSC1AS1Z/TOPP*0000005)
 
-* **Version 3.0.5 [2025/7/4]**
-    * 点群変換処理に関する不具合を修正しました。
-
----
-
-## 動作環境
-
-このアプリケーションは、以下のOSで動作確認済みです。
-
-* **Windows:**
-    * Windows 10
-    * Windows 11
-* **Linux:**
-    * Ubuntu 20.04
-* **NVIDIA Jetson:**
-    * JetPack 5.0.1
-
----
-
-## Link
-
+[BLOG](https://toppan-tof.jp/)
