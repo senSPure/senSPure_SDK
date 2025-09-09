@@ -17,20 +17,21 @@ The *senSPure*&trade; SDK (Software Development Kit)  is supported multiple oper
 # Folder description
 * **windows_x64**
 
-    Windows x64 SDK package that is developed for personal computer platform(x86_64), use standard compiler Visual Studio 2019.
+    Designed for the x64 (x86-64) platform with Windows 10/11.  
+    Supports application development using the Visual Studio compiler.
 
 * **ubuntu_x64**
 
-     Ubuntu x64 SDK package that is developed for personal computer platform(x86_64).
+     Built for the x64 (x86-64) platform with Ubuntu 20.04 / 22.04.
 
 * **jetson_arm64**
 
-    Jetson AGX Orin arm64 SDK package that is developed for SoC platform(arm64).
+    Developed for the arm64 platform on NVIDIA Jetson AGX Orin.
 
 * **ros2_v1.4.1**
 
-    ROS2 Humble Hawksbill package that is developed for personal computer platform(Windows, Ubuntu, Jetson)
->>>>>>> main
+    Provides a dedicated ROS 2 Humble Hawksbill interface.  
+    Supports Windows, Ubuntu and Jetson platforms.
 
 
 # Resources
