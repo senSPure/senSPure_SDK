@@ -116,7 +116,7 @@ ViewerGui::ViewerGui(void) :
 	sts_cur_d_val_idt_(STS_CUR_D_VAL_IDT), sts_cur_ir_idt_(STS_CUR_IR_IDT), sts_cur_ir_val_idt_(STS_CUR_IR_VAL_IDT),
 	sts_cur_raw_g_idt_(STS_CUR_RAW_G_IDT), sts_cur_raw_idt_(STS_CUR_RAW_IDT),
 	sts_oth_idt_(STS_OTH_IDT), sts_oth_btn_w_(STS_OTH_BTN_W),
- 	state_cam_(ST_CLOSED), state_rec_(ST_REC_STOP),
+	state_cam_(ST_CLOSED), state_rec_(ST_REC_STOP),
 	stat_disable_cfg_save_(false), stat_disable_cfg_load_(false),
 	hide_ctrl_panel_str_("Hide"), hide_ctrl_panel_(false),
 
@@ -1823,6 +1823,7 @@ void ViewerGui::drawDevCtrlCam(void)
 		ImGui::TreePop();
 	}
 
+	if (cam_dev_open_) { ImGui::SetNextItemOpen(!cam_disable_light_time_); }
 	if (cam_disable_light_time_) { ImGui::BeginDisabled(); ImGui::SetNextItemOpen(false); }
 	if (ImGui::TreeNode("Light Times")) {
 		int ae_interval = static_cast<int>(cam_ae_interval_.interval);
@@ -1880,6 +1881,8 @@ void ViewerGui::drawDevCtrlCam(void)
 		if (snap_taking_) { ImGui::EndDisabled(); }
 
 		ImGui::TreePop();
+	} else {
+		cam_dev_open_ = false;
 	}
 	if (cam_disable_light_time_) { ImGui::EndDisabled(); }
 
