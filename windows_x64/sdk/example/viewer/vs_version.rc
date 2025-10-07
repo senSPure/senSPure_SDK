@@ -1,8 +1,8 @@
 #include <winver.h>
 
 VS_VERSION_INFO         VERSIONINFO
-	FILEVERSION         3,0,5
-	PRODUCTVERSION      3,0,5
+	FILEVERSION         3,0,6
+	PRODUCTVERSION      3,0,6
 	FILEFLAGSMASK       VS_FFI_FILEFLAGSMASK
 	FILEFLAGS           0
 	FILEOS              VOS__WINDOWS32
@@ -14,10 +14,10 @@ BEGIN
 		BLOCK "040904E4"
 		BEGIN
 			VALUE "CompanyName",    "Copyright (C) 2023 TOPPAN Holdings Inc.\0"
-			VALUE "FileVersion",    "3.0.5\0"
+			VALUE "FileVersion",    "3.0.6\0"
 			VALUE "LegalCopyright", "Copyright (C) 2023 TOPPAN Holdings Inc.\0"
 			VALUE "ProductName",    "TOPPAN_ToF_Viewer\0"
-			VALUE "ProductVersion", "3.0.5\0"
+			VALUE "ProductVersion", "3.0.6\0"
 		END
 	END
 	BLOCK "VarFileInfo"
